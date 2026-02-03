@@ -82,7 +82,7 @@ Video Tutorial: https://t.me/anbesaplus/2506
         )
     
     # How to unlock customer in the backoffice
-    elif user_message == "How to unlock customer in the DBS Backoffice":
+    elif user_message == "How to unlock customer in the backoffice":
         response = """Steps to unlock customer in the DBS Backoffice 
 Video Tutorial: https://t.me/anbesaplus/2132
 """
@@ -104,8 +104,7 @@ Video Tutorial: https://t.me/anbesaplus/2252
     
     # What branches do when the customer is blocked
     elif user_message == "What branches do when the customer is blocked":
-        response = """What branches do when the customer is blocked
-        Trusted Device can only be removed at the Backoffice.
+        response = """Trusted Device can only be removed at the Backoffice.
 """
         
         await update.message.reply_text(
